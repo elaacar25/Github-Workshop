@@ -1,21 +1,7 @@
 ﻿using System;
-
+namespace CSharpHomework
 class Program
 {
-    static void Main(string[] args)
-    {
-     
-        double sonuc1 = HesaplaOrtalama(70, 80);
-        if (sonuc1 != -1) 
-        {
-            Console.WriteLine($"Ortalama: {sonuc1}");
-        }
-
-        double sonuc2 = HesaplaOrtalama(101, 80); 
-        
-        
-        Console.ReadKey();
-    }
 
 
     public static double HesaplaOrtalama(int vize, int final)
@@ -76,4 +62,5 @@ public static string BelirleHarfNotu(double ortalama, int final)
                 return "Tanımsız";
         }
     }
+
 }
